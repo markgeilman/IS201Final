@@ -1,0 +1,59 @@
+body{
+    font-family: "Palatino Linotype", 'Times New Roman', Times, serif;
+    color: white;
+    background-color: burlywood;
+}
+h1{
+    font-family: "Palatino Linotype", 'Times New Roman', Times, serif
+}
+p{
+    font-weight: bold;
+}
+
+a:visited{
+    color:black;
+}
+img{
+    border: 5px black solid;
+    padding: 10px;
+    margin: 2px;
+}
+
+a:hover{
+    text-decoration: overline;
+}
+a{
+    color: rgb(233, 224, 213);
+}
+.common{
+    position: absolute;
+    padding: 5px;
+    margin: 5px;
+}
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-style: italic;
+    background-color: darkcyan;
+    font-size: 50%;
+}
+.top{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+
+}
+.content{
+    top: 150px;
+    bottom: 50px;
+    left: 0px;
+    right: 0px;
+}
+.nav{
+    position: relative;
+    float: right;
+}
